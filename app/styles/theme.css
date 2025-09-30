@@ -3,29 +3,29 @@
   --oui-font-size-base: 16px;
 
   /* colors */
-  --oui-color-primary: 255 255 255;          /* bianco lucido */
-  --oui-color-primary-light: 245 245 245;    /* bianco perlato */
-  --oui-color-primary-darken: 200 200 200;   /* argento chiaro */
-  --oui-color-primary-contrast: 17 22 29;    /* testo scuro */
+  --oui-color-primary: 255 255 255;
+  --oui-color-primary-light: 245 245 245;
+  --oui-color-primary-darken: 40 46 58;
+  --oui-color-primary-contrast: 17 22 29;
 
-  --oui-color-link: 220 220 220;             /* argento chiaro per link */
-  --oui-color-link-light: 245 245 245;       /* quasi bianco */
+  --oui-color-link: 220 220 220;
+  --oui-color-link-light: 245 245 245;
 
-  --oui-color-secondary: 245 245 245;        /* bianco perlato */
-  --oui-color-tertiary: 220 220 220;         /* argento chiaro */
-  --oui-color-quaternary: 220 220 220;       /* argento chiaro */
+  --oui-color-secondary: 245 245 245;
+  --oui-color-tertiary: 220 220 220;
+  --oui-color-quaternary: 220 220 220;
 
-  --oui-color-danger: 245 97 139;            /* manteniamo rosso acceso per alert */
+  --oui-color-danger: 245 97 139;
   --oui-color-danger-light: 250 167 188;
   --oui-color-danger-darken: 237 72 122;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 34 139 34;            /* verde per alert */
+  --oui-color-success: 34 139 34;
   --oui-color-success-light: 88 194 88;
   --oui-color-success-darken: 23 78 23;
   --oui-color-success-contrast: 255 255 255;
 
-  --oui-color-warning: 255 209 70;           /* giallo/arancio per warning */
+  --oui-color-warning: 255 209 70;
   --oui-color-warning-light: 255 229 133;
   --oui-color-warning-darken: 255 152 0;
   --oui-color-warning-contrast: 17 22 29;
@@ -33,8 +33,8 @@
   --oui-color-fill: 36 32 47;
   --oui-color-fill-active: 40 46 58;
 
-  --oui-color-base-1: 245 245 245;           /* bianco perlato */
-  --oui-color-base-2: 240 240 240;           /* argento chiaro */
+  --oui-color-base-1: 245 245 245;
+  --oui-color-base-2: 240 240 240;
   --oui-color-base-3: 230 230 230;
   --oui-color-base-4: 220 220 220;
   --oui-color-base-5: 210 210 210;
@@ -42,17 +42,17 @@
   --oui-color-base-7: 180 180 180;
   --oui-color-base-8: 160 160 160;
   --oui-color-base-9: 140 140 140;
-  --oui-color-base-10: 17 22 29;            /* mantiene il nero per contrasto */
+  --oui-color-base-10: 17 22 29;
 
   --oui-color-base-foreground: 17 22 29;
-  --oui-color-line: 200 200 200;             /* linee argento */
+  --oui-color-line: 200 200 200;
 
   --oui-color-trading-loss: 245 97 139;
   --oui-color-trading-loss-contrast: 255 255 255;
   --oui-color-trading-profit: 34 139 34;
   --oui-color-trading-profit-contrast: 255 255 255;
 
-  /* gradients - moderno bianco/argento */
+  /* gradients */
   --oui-gradient-primary-start: 255, 255, 255;
   --oui-gradient-primary-end: 230, 230, 230;
 
@@ -65,8 +65,8 @@
   --oui-gradient-danger-start: 139, 35, 53;
   --oui-gradient-danger-end: 165, 48, 70;
 
-  --oui-gradient-brand-start: 250, 250, 250;    /* bianco lucido */
-  --oui-gradient-brand-end: 220, 220, 220;      /* argento */
+  --oui-gradient-brand-start: 250, 250, 250;
+  --oui-gradient-brand-end: 220, 220, 220;
   --oui-gradient-brand-stop-start: 12%;
   --oui-gradient-brand-stop-end: 88%;
   --oui-gradient-brand-angle: 12deg;
@@ -74,7 +74,7 @@
   --oui-gradient-warning-start: 255, 229, 133;
   --oui-gradient-warning-end: 255, 209, 70;
 
-  --oui-gradient-neutral-start: 245, 245, 245;  /* neutro chiaro */
+  --oui-gradient-neutral-start: 245, 245, 245;
   --oui-gradient-neutral-end: 220, 220, 220;
 
   /* rounded */
@@ -94,42 +94,7 @@
   --oui-spacing-xl: 33.75rem;
 }
 
-
-/* Pulsanti neri */
-.oui-button {
-  background-color: rgb(var(--oui-color-menu-bg));
-  color: rgb(var(--oui-color-menu-text));
-  border-radius: var(--oui-rounded-md);
-  padding: 0.5rem 1rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-.oui-button:hover {
-  background-color: rgb(var(--oui-color-primary-darken));
-  transform: translateY(-2px);
-}
-
-/* Menu neri */
-.oui-menu {
-  background-color: rgb(var(--oui-color-menu-bg));
-  color: rgb(var(--oui-color-menu-text));
-  border-radius: var(--oui-rounded-md);
-  padding: 0.5rem 0;
-}
-
-/* Menu items */
-.oui-menu-item {
-  padding: 0.5rem 1rem;
-  color: rgb(var(--oui-color-menu-text));
-}
-.oui-menu-item:hover {
-  background-color: rgb(var(--oui-color-primary-light));
-  color: rgb(var(--oui-color-primary-contrast));
-}
-
-
-
 html, body {
-  font-family: 'Manrope', sans-serif !important;
+  font-family: 'Nunito', sans-serif !important;
   font-size: 16px !important;
 }
