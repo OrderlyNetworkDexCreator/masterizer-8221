@@ -1,93 +1,89 @@
 :root {
-  --oui-font-family: 'Manrope', sans-serif;
+  --oui-font-family: 'Nunito', sans-serif;
   --oui-font-size-base: 16px;
 
-  /* ----------------- COLORS ----------------- */
-  /* Testo e elementi principali */
-  --oui-color-primary: 20 20 20;           /* nero elegante */
-  --oui-color-primary-light: 60 60 60;
-  --oui-color-primary-darken: 0 0 0;
-  --oui-color-primary-contrast: 255 255 255;
+  /* colors */
+  --oui-color-primary: 255 255 255;          /* bianco lucido */
+  --oui-color-primary-light: 245 245 245;    /* bianco perlato */
+  --oui-color-primary-darken: 200 200 200;   /* argento chiaro */
+  --oui-color-primary-contrast: 17 22 29;    /* testo scuro */
 
-  --oui-color-link: 20 20 20;
-  --oui-color-link-light: 60 60 60;
+  --oui-color-link: 220 220 220;             /* argento chiaro per link */
+  --oui-color-link-light: 245 245 245;       /* quasi bianco */
 
-  /* Sfondo dei componenti */
-  --oui-color-secondary: 255 255 255;      /* bianco puro */
-  --oui-color-tertiary: 245 245 245;       /* argento chiaro */
-  --oui-color-quaternary: 235 235 235;     /* argento medio */
+  --oui-color-secondary: 245 245 245;        /* bianco perlato */
+  --oui-color-tertiary: 220 220 220;         /* argento chiaro */
+  --oui-color-quaternary: 220 220 220;       /* argento chiaro */
 
-  /* Pulsanti e menu (scuri) */
-  --oui-color-menu-bg: 20 20 20;           /* nero elegante */
-  --oui-color-menu-text: 255 255 255;
-
-  /* Stato e messaggi */
-  --oui-color-danger: 180 30 50;
-  --oui-color-danger-light: 220 70 100;
-  --oui-color-danger-darken: 140 20 40;
+  --oui-color-danger: 245 97 139;            /* manteniamo rosso acceso per alert */
+  --oui-color-danger-light: 250 167 188;
+  --oui-color-danger-darken: 237 72 122;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 20 120 20;
-  --oui-color-success-light: 80 200 80;
-  --oui-color-success-darken: 0 80 0;
+  --oui-color-success: 34 139 34;            /* verde per alert */
+  --oui-color-success-light: 88 194 88;
+  --oui-color-success-darken: 23 78 23;
   --oui-color-success-contrast: 255 255 255;
 
-  --oui-color-warning: 180 140 30;
-  --oui-color-warning-light: 220 180 70;
-  --oui-color-warning-darken: 150 110 20;
-  --oui-color-warning-contrast: 255 255 255;
+  --oui-color-warning: 255 209 70;           /* giallo/arancio per warning */
+  --oui-color-warning-light: 255 229 133;
+  --oui-color-warning-darken: 255 152 0;
+  --oui-color-warning-contrast: 17 22 29;
 
-  --oui-color-fill: 250 250 250;           /* sfondi chiari generali */
-  --oui-color-fill-active: 240 240 240;
+  --oui-color-fill: 36 32 47;
+  --oui-color-fill-active: 40 46 58;
 
-  /* Tonalità di base per layout */
-  --oui-color-base-1: 255 255 255;
-  --oui-color-base-2: 250 250 250;
-  --oui-color-base-3: 245 245 245;
-  --oui-color-base-4: 240 240 240;
-  --oui-color-base-5: 230 230 230;
-  --oui-color-base-6: 215 215 215;
-  --oui-color-base-7: 200 200 200;
-  --oui-color-base-8: 180 180 180;
-  --oui-color-base-9: 150 150 150;
-  --oui-color-base-10: 120 120 120;
+  --oui-color-base-1: 245 245 245;           /* bianco perlato */
+  --oui-color-base-2: 240 240 240;           /* argento chiaro */
+  --oui-color-base-3: 230 230 230;
+  --oui-color-base-4: 220 220 220;
+  --oui-color-base-5: 210 210 210;
+  --oui-color-base-6: 200 200 200;
+  --oui-color-base-7: 180 180 180;
+  --oui-color-base-8: 160 160 160;
+  --oui-color-base-9: 140 140 140;
+  --oui-color-base-10: 17 22 29;            /* mantiene il nero per contrasto */
 
-  --oui-color-base-foreground: 20 20 20;   /* testo scuro */
-  --oui-color-line: 180 180 180;
+  --oui-color-base-foreground: 17 22 29;
+  --oui-color-line: 200 200 200;             /* linee argento */
 
-  /* ----------------- GRADIENTS ----------------- */
-  --oui-gradient-primary-start: 255 255 255;
-  --oui-gradient-primary-end: 245 245 245;
+  --oui-color-trading-loss: 245 97 139;
+  --oui-color-trading-loss-contrast: 255 255 255;
+  --oui-color-trading-profit: 34 139 34;
+  --oui-color-trading-profit-contrast: 255 255 255;
 
-  --oui-gradient-secondary-start: 245 245 245;
-  --oui-gradient-secondary-end: 235 235 235;
+  /* gradients - moderno bianco/argento */
+  --oui-gradient-primary-start: 255, 255, 255;
+  --oui-gradient-primary-end: 230, 230, 230;
 
-  --oui-gradient-success-start: 80 200 80;
-  --oui-gradient-success-end: 20 120 20;
+  --oui-gradient-secondary-start: 245, 245, 245;
+  --oui-gradient-secondary-end: 220, 220, 220;
 
-  --oui-gradient-danger-start: 220 70 100;
-  --oui-gradient-danger-end: 180 30 50;
+  --oui-gradient-success-start: 34, 102, 34;
+  --oui-gradient-success-end: 46, 139, 46;
 
-  --oui-gradient-brand-start: 255 255 255;
-  --oui-gradient-brand-end: 245 245 245;
-  --oui-gradient-brand-stop-start: 6.62%;
-  --oui-gradient-brand-stop-end: 86.5%;
-  --oui-gradient-brand-angle: 17.44deg;
+  --oui-gradient-danger-start: 139, 35, 53;
+  --oui-gradient-danger-end: 165, 48, 70;
 
-  --oui-gradient-warning-start: 220 180 70;
-  --oui-gradient-warning-end: 180 140 30;
+  --oui-gradient-brand-start: 250, 250, 250;    /* bianco lucido */
+  --oui-gradient-brand-end: 220, 220, 220;      /* argento */
+  --oui-gradient-brand-stop-start: 12%;
+  --oui-gradient-brand-stop-end: 88%;
+  --oui-gradient-brand-angle: 12deg;
 
-  --oui-gradient-neutral-start: 245 245 245;
-  --oui-gradient-neutral-end: 230 230 230;
+  --oui-gradient-warning-start: 255, 229, 133;
+  --oui-gradient-warning-end: 255, 209, 70;
 
-  /* ----------------- ROUNDED ----------------- */
+  --oui-gradient-neutral-start: 245, 245, 245;  /* neutro chiaro */
+  --oui-gradient-neutral-end: 220, 220, 220;
+
   /* rounded */
-  --oui-rounded-sm: 17px;
-  --oui-rounded: 17px;
-  --oui-rounded-md: 17px;
-  --oui-rounded-lg: 17px;
-  --oui-rounded-xl: 17px;
-  --oui-rounded-2xl: 17px;
+  --oui-rounded-sm: 8;
+  --oui-rounded: 8;
+  --oui-rounded-md: 8;
+  --oui-rounded-lg: 8;
+  --oui-rounded-xl: 8;
+  --oui-rounded-2xl: 8;
   --oui-rounded-full: 9999px;
 
   /* spacing */
@@ -96,8 +92,8 @@
   --oui-spacing-md: 26.25rem;
   --oui-spacing-lg: 30rem;
   --oui-spacing-xl: 33.75rem;
-
 }
+
 
 /* Pulsanti neri */
 .oui-button {
