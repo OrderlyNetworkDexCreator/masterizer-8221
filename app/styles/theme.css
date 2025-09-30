@@ -99,18 +99,24 @@ html, body {
   font-size: 16px !important;
 }
 
-/* -------------------------------------------------
-   🎨 GLOBAL SIMPLE EFFECTS
-------------------------------------------------- */
-.oui-glass {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+.oui-button {
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  background: rgb(var(--oui-color-primary));
+  color: rgb(var(--oui-color-primary-contrast));
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
-
-.oui-neon {
-  text-shadow: 0 0 4px rgba(0, 200, 255, 0.7);
+.oui-button:hover {
+  background: rgb(var(--oui-color-primary-light));
 }
-
+.oui-button:active { transform: scale(0.95); }
+.oui-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
 
 /* FOOTER */
 .oui-scaffold-footer-powered-by {
