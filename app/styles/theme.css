@@ -1,96 +1,89 @@
 :root {
-  /* -------------------------------------------------
-     🎨 TYPOGRAPHY & FONT
-  ------------------------------------------------- */
-  --oui-font-family: 'Nunito', sans-serif;
+  --oui-font-family: 'Manrope', sans-serif;
   --oui-font-size-base: 16px;
 
-  /* -------------------------------------------------
-     🎨 COLORS
-  ------------------------------------------------- */
-  --oui-color-primary: 102 66 0;
-  --oui-color-primary-light: 143 102 66;
-  --oui-color-primary-darken: 66 45 11;
-  --oui-color-primary-contrast: 255 255 255;
+  /* colors */
+  --oui-color-primary: 255 255 255;
+  --oui-color-primary-light: 245 245 245;
+  --oui-color-primary-darken: 220 220 220;
+  --oui-color-primary-contrast: 30 30 30;
 
-  --oui-color-link: 152 118 82;
-  --oui-color-link-light: 189 152 133;
+  --oui-color-link: 230 230 230;
+  --oui-color-link-light: 245 245 245;
 
-  --oui-color-secondary: 117 85 63;
-  --oui-color-tertiary: 107 85 80;
-  --oui-color-quaternary: 107 85 80;
+  --oui-color-secondary: 245 245 245;
+  --oui-color-tertiary: 220 220 220;
+  --oui-color-quaternary: 210 210 210;
 
-  --oui-color-danger: 150 44 66;
-  --oui-color-danger-light: 194 88 122;
-  --oui-color-danger-darken: 122 33 56;
-  --oui-color-danger-contrast: 255 255 255;
+  --oui-color-danger: 255 220 220;
+  --oui-color-danger-light: 255 200 200;
+  --oui-color-danger-darken: 240 180 180;
+  --oui-color-danger-contrast: 50 50 50;
 
-  --oui-color-success: 34 139 34;
-  --oui-color-success-light: 88 194 88;
-  --oui-color-success-darken: 23 78 23;
-  --oui-color-success-contrast: 255 255 255;
+  --oui-color-success: 230 255 230;
+  --oui-color-success-light: 200 245 200;
+  --oui-color-success-darken: 180 220 180;
+  --oui-color-success-contrast: 30 30 30;
 
-  --oui-color-warning: 181 101 29;
-  --oui-color-warning-light: 220 165 82;
-  --oui-color-warning-darken: 165 82 0;
-  --oui-color-warning-contrast: 255 255 255;
+  --oui-color-warning: 255 250 230;
+  --oui-color-warning-light: 255 245 210;
+  --oui-color-warning-darken: 240 220 180;
+  --oui-color-warning-contrast: 30 30 30;
 
-  --oui-color-fill: 45 39 56;
-  --oui-color-fill-active: 50 53 66;
+  --oui-color-fill: 250 250 250;
+  --oui-color-fill-active: 240 240 240;
 
-  --oui-color-base-1: 74 57 43;
-  --oui-color-base-2: 64 52 51;
-  --oui-color-base-3: 57 49 54;
-  --oui-color-base-4: 49 44 51;
-  --oui-color-base-5: 44 41 49;
-  --oui-color-base-6: 39 38 46;
-  --oui-color-base-7: 33 34 43;
-  --oui-color-base-8: 28 30 39;
-  --oui-color-base-9: 23 26 36;
-  --oui-color-base-10: 17 22 29;
+  --oui-color-base-1: 255 255 255;
+  --oui-color-base-2: 250 250 250;
+  --oui-color-base-3: 245 245 245;
+  --oui-color-base-4: 240 240 240;
+  --oui-color-base-5: 230 230 230;
+  --oui-color-base-6: 215 215 215;
+  --oui-color-base-7: 200 200 200;
+  --oui-color-base-8: 185 185 185;
+  --oui-color-base-9: 160 160 160;
+  --oui-color-base-10: 140 140 140;
 
-  --oui-color-base-foreground: 255 255 255;
-  --oui-color-line: 255 255 255;
+  --oui-color-base-foreground: 30 30 30;
+  --oui-color-line: 180 180 180;
 
-  --oui-color-trading-loss: 150 44 66;
-  --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 34 139 34;
-  --oui-color-trading-profit-contrast: 255 255 255;
+  --oui-color-trading-loss: 255 220 220;
+  --oui-color-trading-loss-contrast: 50 50 50;
+  --oui-color-trading-profit: 230 255 230;
+  --oui-color-trading-profit-contrast: 30 30 30;
 
-  /* -------------------------------------------------
-     🌟 GRADIENTI LUXURY (bianco/argento)
-  ------------------------------------------------- */
-  --oui-gradient-primary-start: 255, 255, 255;   /* Bianco puro */
-  --oui-gradient-primary-end: 220, 220, 220;     /* Argento chiaro */
+  /* gradients */
+  --oui-gradient-primary-start: 255 255 255;
+  --oui-gradient-primary-end: 230 230 230;
 
-  --oui-gradient-secondary-start: 240, 240, 240; /* Grigio perla */
-  --oui-gradient-secondary-end: 200, 200, 200;   /* Argento satinato */
+  --oui-gradient-secondary-start: 245 245 245;
+  --oui-gradient-secondary-end: 215 215 215;
 
-  --oui-gradient-success-start: 245, 245, 245;   /* Bianco ghiaccio */
-  --oui-gradient-success-end: 210, 210, 210;     /* Argento tenue */
+  --oui-gradient-success-start: 200 245 200;
+  --oui-gradient-success-end: 180 220 180;
 
-  --oui-gradient-danger-start: 255, 250, 250;    /* Bianco rosato delicato */
-  --oui-gradient-danger-end: 230, 230, 230;      /* Grigio chiaro elegante */
+  --oui-gradient-danger-start: 255 220 220;
+  --oui-gradient-danger-end: 240 180 180;
 
-  --oui-gradient-brand-start: 255, 255, 255;     /* Bianco lusso */
-  --oui-gradient-brand-end: 225, 225, 225;       /* Argento elegante */
-  --oui-gradient-brand-stop-start: 10%;
-  --oui-gradient-brand-stop-end: 90%;
-  --oui-gradient-brand-angle: 15deg;
+  --oui-gradient-brand-start: 255 255 255;
+  --oui-gradient-brand-end: 220 220 220;
+  --oui-gradient-brand-stop-start: 6.62%;
+  --oui-gradient-brand-stop-end: 86.5%;
+  --oui-gradient-brand-angle: 17.44deg;
 
-  --oui-gradient-warning-start: 250, 250, 250;   /* Bianco perlato */
-  --oui-gradient-warning-end: 215, 215, 215;     /* Argento satinato chiaro */
+  --oui-gradient-warning-start: 255 250 230;
+  --oui-gradient-warning-end: 240 220 180;
 
-  --oui-gradient-neutral-start: 245, 245, 245;   /* Bianco soft */
-  --oui-gradient-neutral-end: 210, 210, 210;     /* Argento moderno */
+  --oui-gradient-neutral-start: 245 245 245;
+  --oui-gradient-neutral-end: 210 210 210;
 
   /* rounded */
-  --oui-rounded-sm: 8;
-  --oui-rounded: 8;
-  --oui-rounded-md: 8;
-  --oui-rounded-lg: 8;
-  --oui-rounded-xl: 8;
-  --oui-rounded-2xl: 8;
+  --oui-rounded-sm: 17px;
+  --oui-rounded: 17px;
+  --oui-rounded-md: 17px;
+  --oui-rounded-lg: 17px;
+  --oui-rounded-xl: 17px;
+  --oui-rounded-2xl: 17px;
   --oui-rounded-full: 9999px;
 
   /* spacing */
@@ -102,33 +95,6 @@
 }
 
 html, body {
-  font-family: 'Nunito', sans-serif !important;
+  font-family: 'Manrope', sans-serif !important;
   font-size: 16px !important;
 }
-
-.oui-button {
-  border-radius: 6px;
-  padding: 0.5rem 1rem;
-  font-weight: 600;
-  background: rgb(var(--oui-color-primary));
-  color: rgb(var(--oui-color-primary-contrast));
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-.oui-button:hover {
-  background: rgb(var(--oui-color-primary-light));
-}
-.oui-button:active { transform: scale(0.95); }
-.oui-button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-/* FOOTER */
-.oui-scaffold-footer-powered-by {
-  display: none !important;
-}
-
-
-
