@@ -123,6 +123,7 @@ html, body {
   display: none !important;
 }
 
-.oui-box.oui-px-3.oui-size-width.oui-size-height.oui-flex.oui-flex-row.oui-items-center.oui-justify-between.oui-flex-nowrap {
+.oui-box.oui-flex.oui-flex-row.oui-items-center.oui-justify-start.oui-flex-nowrap {
   display: none !important;
 }
+
