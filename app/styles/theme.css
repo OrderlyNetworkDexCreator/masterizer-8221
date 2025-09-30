@@ -1,8 +1,13 @@
 :root {
+  /* -------------------------------------------------
+     🎨 TYPOGRAPHY & FONT
+  ------------------------------------------------- */
   --oui-font-family: 'Nunito', sans-serif;
   --oui-font-size-base: 16px;
 
-  /* colors */
+  /* -------------------------------------------------
+     🎨 COLORS
+  ------------------------------------------------- */
   --oui-color-primary: 102 66 0;
   --oui-color-primary-light: 143 102 66;
   --oui-color-primary-darken: 66 45 11;
@@ -52,30 +57,32 @@
   --oui-color-trading-profit: 34 139 34;
   --oui-color-trading-profit-contrast: 255 255 255;
 
-   /* gradients - versione moderna */
-  --oui-gradient-primary-start: 92, 64, 51;   /* Marrone cioccolato caldo */
-  --oui-gradient-primary-end: 118, 84, 66;    /* Un tono appena più chiaro */
+  /* -------------------------------------------------
+     🌟 GRADIENTI LUXURY (bianco/argento)
+  ------------------------------------------------- */
+  --oui-gradient-primary-start: 255, 255, 255;   /* Bianco puro */
+  --oui-gradient-primary-end: 220, 220, 220;     /* Argento chiaro */
 
-  --oui-gradient-secondary-start: 72, 54, 42; /* Marrone scuro opaco */
-  --oui-gradient-secondary-end: 101, 77, 60;  /* Leggera sfumatura calda */
+  --oui-gradient-secondary-start: 240, 240, 240; /* Grigio perla */
+  --oui-gradient-secondary-end: 200, 200, 200;   /* Argento satinato */
 
-  --oui-gradient-success-start: 34, 102, 34;  /* Verde foresta */
-  --oui-gradient-success-end: 46, 139, 46;    /* Verde più brillante ma sobrio */
+  --oui-gradient-success-start: 245, 245, 245;   /* Bianco ghiaccio */
+  --oui-gradient-success-end: 210, 210, 210;     /* Argento tenue */
 
-  --oui-gradient-danger-start: 139, 35, 53;   /* Rosso vino intenso */
-  --oui-gradient-danger-end: 165, 48, 70;     /* Rosso elegante con un tocco moderno */
+  --oui-gradient-danger-start: 255, 250, 250;    /* Bianco rosato delicato */
+  --oui-gradient-danger-end: 230, 230, 230;      /* Grigio chiaro elegante */
 
-  --oui-gradient-brand-start: 89, 60, 31;     /* Marrone caldo deciso */
-  --oui-gradient-brand-end: 120, 90, 60;      /* Marrone beige elegante */
-  --oui-gradient-brand-stop-start: 12%;
-  --oui-gradient-brand-stop-end: 88%;
-  --oui-gradient-brand-angle: 12deg;
+  --oui-gradient-brand-start: 255, 255, 255;     /* Bianco lusso */
+  --oui-gradient-brand-end: 225, 225, 225;       /* Argento elegante */
+  --oui-gradient-brand-stop-start: 10%;
+  --oui-gradient-brand-stop-end: 90%;
+  --oui-gradient-brand-angle: 15deg;
 
-  --oui-gradient-warning-start: 181, 118, 35; /* Ambra caldo */
-  --oui-gradient-warning-end: 199, 135, 40;   /* Oro leggermente più luminoso */
+  --oui-gradient-warning-start: 250, 250, 250;   /* Bianco perlato */
+  --oui-gradient-warning-end: 215, 215, 215;     /* Argento satinato chiaro */
 
-  --oui-gradient-neutral-start: 45, 42, 40;   /* Grigio-marrone scuro */
-  --oui-gradient-neutral-end: 65, 60, 55;     /* Tono neutro caldo */
+  --oui-gradient-neutral-start: 245, 245, 245;   /* Bianco soft */
+  --oui-gradient-neutral-end: 210, 210, 210;     /* Argento moderno */
 
   /* rounded */
   --oui-rounded-sm: 8;
