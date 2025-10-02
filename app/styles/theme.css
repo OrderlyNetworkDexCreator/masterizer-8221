@@ -104,20 +104,6 @@ html, body {
 }
 
 
-/* -------------------------------------------------
-   ✨ ANIMATIONS
-------------------------------------------------- */
-@keyframes oui-fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-.oui-animate-fade-in { animation: oui-fade-in 0.4s ease forwards; }
-
-@keyframes oui-pulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(0,200,255,0.5); }
-  50% { box-shadow: 0 0 0 6px rgba(0,200,255,0); }
-}
-.oui-animate-pulse { animation: oui-pulse 1.2s infinite; }
 
 /* -------------------------------------------------
    🌈 BUTTONS
@@ -145,19 +131,17 @@ html, body {
    📊 CARDS / BOXES
 ------------------------------------------------- */
 .parent {
-  perspective: 1200px; /* quasi piatta */
+  perspective: 1500px; /* quasi piatto */
 }
 
 .oui-box {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .oui-box:hover {
-  /* Effetto leggerissimo */
-  transform: translateZ(1px) scale(1.005);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  transform: scale(1.002); /* appena percettibile */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* ombra leggerissima */
 }
-
 /* -------------------------------------------------
    🚫 FOOTER
 ------------------------------------------------- */
