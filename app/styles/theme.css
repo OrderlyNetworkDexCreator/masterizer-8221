@@ -145,17 +145,17 @@ html, body {
    📊 CARDS / BOXES
 ------------------------------------------------- */
 .parent {
-  perspective: 800px; /* profondità più naturale */
+  perspective: 1200px; /* quasi piatta */
 }
 
 .oui-box {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .oui-box:hover {
-  /* Effetto molto leggero di sollevamento */
-  transform: translateZ(3px) scale(1.01);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  /* Effetto leggerissimo */
+  transform: translateZ(1px) scale(1.005);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
 }
 
 /* -------------------------------------------------
