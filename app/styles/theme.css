@@ -99,19 +99,10 @@ html, body {
   font-size: 16px !important;
 }
 
-
 .oui-neon {
   text-shadow: 0 0 4px rgba(0, 200, 255, 0.7);
 }
 
-/* -------------------------------------------------
-   🖱️ INTERACTIVITY & HOVER
-------------------------------------------------- */
-.oui-hover-scale:hover { transform: scale(1.03); }
-.oui-hover-glow:hover {
-  box-shadow: 0 0 12px rgba(0, 200, 255, 0.4);
-}
-.oui-active-press:active { transform: scale(0.96); }
 
 /* -------------------------------------------------
    ✨ ANIMATIONS
@@ -129,7 +120,7 @@ html, body {
 .oui-animate-pulse { animation: oui-pulse 1.2s infinite; }
 
 /* -------------------------------------------------
-   🌈 BUTTONS (semplificate)
+   🌈 BUTTONS
 ------------------------------------------------- */
 .oui-button {
   border-radius: 6px;
@@ -151,35 +142,25 @@ html, body {
 }
 
 /* -------------------------------------------------
-   🖼️ NAVBAR & TOOLBAR
-------------------------------------------------- */
-
-
-/* -------------------------------------------------
    📊 CARDS / BOXES
 ------------------------------------------------- */
+.parent {
+  perspective: 1000px; /* aggiunge profondità */
+}
+
+.oui-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 .oui-box:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  /* Effetto “alzarsi verso l’utente” */
+  transform: translateZ(12px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.25);
 }
 
 /* -------------------------------------------------
-   🖱️ SCROLLBARS (basic, no gradient)
+   🚫 FOOTER
 ------------------------------------------------- */
-.oui-custom-scrollbar::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-.oui-custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #999;
-  border-radius: 4px;
-}
-.oui-custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #777;
-}
-
-/* FOOTER */
 .oui-scaffold-footer-powered-by {
   display: none !important;
 }
